@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Symbols+Outlined"/>
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>My weather application</title>
+  </head>
+  <body>
+    <div class="container">
+    <header>
+      <form>
+        <div class="search-bar">
+          <input
+            type="search"
+            placeholder="Enter a city.."
+            required
+            class="search-input"
+          />
+          <input type="submit" value="Search" class="search-button" />
+        </div>
+      </form>
+    </header>
+    <main>
+      <div class="current-weather">
+        <div>
+          <h1>San Francisco</h1>
+          <p>
+            <div class="weather details">
+              Tuesday 07:45, few clouds <br />
+            Humidity: <span class="humidity"><strong>85%</strong></span
+            >, Wind: <span class="wind"><strong>5.66km/h</strong></span>
+            </div>
+          </p>
+        </div>
+        <div class="temperature">
+          <span class="material-symbols-outlined">
+            partly_cloudy_day
+            </span>
+          <span class="value">13</span>
+          <span class="symbol">°C</span>
+        </div>
+      </div>
+    </main>
+    <table>
+      <tr>
+        <td>
+          <div class="forecast">
+            <div class="day">Tue</div>
+            <span class="material-symbols-outlined">
+              sunny
+              </span>
+            </div>
+          <div class="forecast-temperature">
+            <strong>21°</strong>12°
+          </div>
+        </td>
+        <td>
+          <div class="forecast">
+            <div class="day">Wed</div>
+            <span class="material-symbols-outlined">
+              sunny
+              </span>
+            </div>
+          </div>
+          <div class="forecast-temperature">
+            <strong>16°</strong>  12°
+          </div>
+        </td>
+        <td>
+          <div class="forecast">
+            <div class="day">Thu</div>
+             <span class="material-symbols-outlined">
+              sunny
+            </span></div>
+          <div class="forecast-temperature">
+           <strong>17°</strong>  12°
+          </div>
+        </td>
+        <td>
+          <div class="forecast">
+            <div class= "day">Fri</div>
+            <span class="material-symbols-outlined">
+              sunny
+            </span></div>
+          <div class="forecast-temperature">
+           <strong> 25°</strong> 12°
+          </div>
+        </td>
+        <td>
+            <div class="forecast">
+              <div class= "day"> Sat</div>
+              <span class="material-symbols-outlined">
+                rainy
+              </span>
+            </div>
+            <div class="forecast-temperature">
+           <strong>20°</strong>  10°</div>
+          </td> 
+      </tr>
+    </table>
+    <footer>
+      <p>
+        This project was coded by
+        <a href="#" target="_blank"> Ntokozo Zulu</a> and is
+        <a href="#" target="_blank"> on GitHub</a> and
+        <a href="#" target="_blank">hosted on Netlify</a>
+      </p>
+    </footer>
+    </div>
+    <script src="src/script.js"></script>
+  </body>
+</html>
