@@ -73,11 +73,11 @@ h1 {
 
 .temperature .value {
   color: #212121;
-    font-size: 80px;
-    font-weight: 400;
-    font-weight: 700;
-    line-height: 1;
-    margin-left: 10px
+  font-size: 80px;
+  font-weight: 400;
+  font-weight: 700;
+  line-height: 1;
+  margin-left: 10px;
 }
 
 .temperature .symbol {
@@ -123,9 +123,9 @@ td {
 
 table .day {
   color: #27214266;
-    font-size: 16px;
-    line-height: 20px;
-    text-align: center;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
 }
 
 table .material-symbols-outlined {
@@ -134,15 +134,13 @@ table .material-symbols-outlined {
   height: 38px;
   width: 38px;
   font-size: 38px;
-
-
 }
 
 table .forecast-temperature {
   color: #f65282;
-    font-size: 18px;
-    font-style: normal;
-    line-height: 1.5;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 1.5;
 }
 
 footer {

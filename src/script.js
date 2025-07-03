@@ -11,7 +11,7 @@ function search(event) {
 }
 
 function displayTemperature(response) {
-  let temperatureElement = document.querySelector(".current-temperature-value");
+  let temperatureElement = document.querySelector(".value");
   let temperature = Math.round(response.data.temperature.current);
   temperatureElement.innerHTML = temperature;
 }
